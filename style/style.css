@@ -147,35 +147,6 @@ a {
     }
 }
 
-@media screen and (max-width: 1050px) {
-    #foto-perfil img {
-        width: 250px;
-    }
-
-    #sobre-mim {
-        font-size: 20px;
-    }
-
-    #about p {
-        font-size: 18px;
-        margin: 0px 10px;
-    }
-
-    a {
-        font-size: 16px;
-    }
-
-    #links-container {
-        margin-bottom: 10px;
-    }
-
-    #instagram,
-    #linkedin,
-    #github {
-        width: 750px;
-    }
-}
-
 
 @media screen and (max-width: 770px) {
     #about p {
@@ -192,7 +163,7 @@ a {
 
 @media screen and (max-width: 550px) {
     #foto-perfil img {
-        width: 280px;
+        width: 350px;
     }
 
     #sobre-mim {
@@ -200,7 +171,7 @@ a {
     }
 
     #about p {
-        font-size: 17px;
+        font-size: 20px;
         text-align: center;
         margin: 0px 10px;
     }
@@ -212,38 +183,10 @@ a {
     }
 
     a {
-        font-size: 20px;
+        font-size: 22px;
     }
 
 }
-
-
-@media screen and (max-width: 440px) {
-    #foto-perfil img {
-        width: 280px;
-    }
-
-    #sobre-mim {
-        font-size: 20px;
-    }
-
-    #about p {
-        font-size: 17px;
-        text-align: center;
-        margin: 0px 10px;
-    }
-
-    #instagram,
-    #linkedin,
-    #github {
-        width: 300px;
-    }
-    
-    a {
-        font-size: 25px;
-    }
-}
-
 
 @media screen and (max-width: 375px) {
     #foto-perfil img {
@@ -252,33 +195,6 @@ a {
 
     #sobre-mim {
         font-size: 17px;
-    }
-
-    #about p {
-        font-size: 15px;
-        text-align: center;
-        margin: 0px 10px;
-    }
-
-    #instagram,
-    #linkedin,
-    #github {
-        width: 300px;
-    }
-
-    a {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    #foto-perfil img {
-        width: 220px;
-    }
-
-    #sobre-mim {
-        font-size: 17px;
-        text-align: center;
     }
 
     #instagram,
@@ -291,5 +207,13 @@ a {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 290px) {
+
+    #sobre-mim {
+        text-align: center;
+    }
+}
+
 
 
