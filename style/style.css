@@ -93,9 +93,203 @@ a {
     border-color: #25863c;
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 1300px) {
+
+    #foto-perfil img {
+        width: 300px;
+    }
+
+    #sobre-mim {
+        font-size: 25px;
+    }
+
     #about p {
+        font-size: 22px;
         text-align: center;
-        margin: 0px 5px;
+        margin: 0px 10px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 750px;
     }
 }
+
+
+@media screen and (max-width: 1050px) {
+    #foto-perfil img {
+        width: 500px;
+    }
+
+    #sobre-mim {
+        font-size: 32px;
+    }
+
+    #about p {
+        font-size: 30px;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #foto-perfil img {
+        width: 250px;
+    }
+
+    #sobre-mim {
+        font-size: 20px;
+    }
+
+    #about p {
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    #links-container {
+        margin-bottom: 10px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 750px;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    #about p {
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #foto-perfil img {
+        width: 280px;
+    }
+
+    #sobre-mim {
+        font-size: 20px;
+    }
+
+    #about p {
+        font-size: 17px;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 300px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 440px) {
+    #foto-perfil img {
+        width: 280px;
+    }
+
+    #sobre-mim {
+        font-size: 20px;
+    }
+
+    #about p {
+        font-size: 17px;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 300px;
+    }
+    
+    a {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    #foto-perfil img {
+        width: 250px;
+    }
+
+    #sobre-mim {
+        font-size: 17px;
+    }
+
+    #about p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 300px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #foto-perfil img {
+        width: 220px;
+    }
+
+    #sobre-mim {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #instagram,
+    #linkedin,
+    #github {
+        width: 200px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+
